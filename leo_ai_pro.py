@@ -15,7 +15,7 @@ import os
 st.set_page_config(page_title="Leo.AI PRO", page_icon="🦁", layout="wide")
 st.markdown("<h1 style='text-align:center;color:#4B0082;'>🤖 Leo.AI – Tutor per la Maturità</h1>", unsafe_allow_html=True)
 
-API_KEY = os.getenv("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")
+API_KEY = os.getenv("GROQ_API_KEY")
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # ==================== SESSION STATE ====================
